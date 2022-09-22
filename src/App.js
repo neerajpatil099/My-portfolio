@@ -1,5 +1,5 @@
 import './App.css';
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import Main from './components/Main';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
@@ -7,7 +7,6 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import LoadingBar from 'react-top-loading-bar';
-// import calculator from './components/claculator';
 
 
 
