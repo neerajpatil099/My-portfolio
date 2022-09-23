@@ -4,6 +4,7 @@
     margin: 0;padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
 }
 body{
     overflow: hidden;
@@ -17,21 +18,21 @@ nav{
     display: flex;
     width: 100%;
     justify-content: space-around;
-    height: 88px;
+    height: 8.8rem;
     z-index: 111;
 }
 #logo{
  display: flex;
- font-size: 40px;
+ font-size: 4.0rem;
  font-weight: 800;
  color:#3d535f;
- letter-spacing: 3px;
+ letter-spacing: 0.3rem;
  cursor: pointer;
  text-transform: uppercase;
 }
 b{
     font-family:'Poppins' ;
-    font-size: 80px;
+    font-size: 8.0rem;
     color: #7f00ff;
 }
 .nav-items{
@@ -39,16 +40,16 @@ b{
 }
 .nav-items li{
     list-style: none;
-    margin: 10px 15px;
+    margin: 1.0rem 1.5rem;
 }
 .nav-items li:hover{
     transform: scale(1.1);
     transition: 0.1s;
 }
 .nav-items li a{
-    font-size: 25px;
+    font-size: 2.5rem;
     color: #3d535f;
-    letter-spacing: 3px;
+    letter-spacing: 0.3rem;
     text-decoration: none;
     text-transform: capitalize;
 }
@@ -56,15 +57,15 @@ b{
     color: #7f00ff;
 }
 .links a{
-    font-size: 30px;
+    font-size: 3.0rem;
     color: #3d535f;
-    margin: 25px 10px;
+    margin: 2.5rem 1rem;
 }
 .links a:hover{
     color: #7f00ff;
 }
 .links{
-    margin-top: 10px;
+    margin-top: 1rem;
 }
 .wrapper{
     display: flex;
@@ -117,37 +118,44 @@ b{
 }
 .cols0{
     z-index: 100;
+    /* width: 3.3rem; */
+    height: 50rem;
 }
 .topline{
     display: block;
     position: relative;
-    font-size: 35px;
-    letter-spacing: 5px;
+    font-size: 3.5rem;
+    letter-spacing: 0.5rem;
     color: #3d535f;
+    bottom: -9rem;
 }
 .topline::after{
     position: absolute;
     content: '';
-    height: 6px;
-    width: 50px;
-    bottom: 10px;
+    height: 0.6rem;
+    width: 5.0rem;
+    bottom: 1.0rem;
     background-color: #7f00ff;
-    border-radius: 3px;
+    border-radius: 3.0rem;
 }
 h1{
     display: block;
-    font-size: 6em;
+    font-size: 9.5rem;
     font-weight: 900;
     color: #3d535f;
+margin-top: 9rem;;
 }
 h1 span{
     color: #7f00ff;
     text-transform: capitalize;
+    font-size: 9.5rem;
+
+
 }
 p{
     display: block;
     width: 90%;
-    font-size: 1.2em;
+    font-size: 2.2rem;
     color: #3d535f;
 }
 .btns {
@@ -160,15 +168,15 @@ p{
     outline: none;
     border: none;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 2.5rem;
     font-weight: 400;
     color: #fff;
     background-color: #3d535f;
-    padding: 8px 14px;
-    margin: 40px 15px;
+    padding: 0.8rem 1.4rem;
+    margin: 4.0rem 1.5rem;
     letter-spacing: capitalize;
-    box-shadow:0 15px 10px rgba(0, 0, 0, 0.418);
-    border-radius: 5px;
+    box-shadow:0 1.5rem 1.0rem rgba(0, 0, 0, 0.418);
+    border-radius: 0.5rem;
 }
 
 button:hover{
@@ -184,8 +192,8 @@ button:hover{
 .imgbox img{
     position: relative;
     height: 100%;
-    width: calc(130% - 80px);
-    top: -30px;
+    width: calc(130% - 8.0rem);
+    top: -3.0rem;
     /* animation: animateuser 5s linear infinite; */
 }
 @keyframes animateuser{
@@ -200,11 +208,11 @@ button:hover{
 .splash{
     background: linear-gradient(45deg, #7f00ff,pink) ;
  position: absolute;
-   height: 700px;
-   width: 700px;
+   height: 70rem;
+   width: 70rem;
    border-radius: 50%;
-   left: 250px;
-   top:150px;
+   left: 25rem;
+   top:15rem;
    animation: animate 4s linear infinite;
    /* /* filter: saturate(200%); */
 } 
@@ -219,14 +227,14 @@ button:hover{
 
 
 #nav-item-heading{
-    font-size: 40px;
+    font-size: 4rem;
     font-weight: 500;
     color:#3d535f;
-    letter-spacing: 3px;
+    letter-spacing: 0.3rem;
     cursor: pointer;
     text-transform: uppercase;
-    margin-left: 300px;
-    margin-top: 100px;
+    margin-left: 30rem;
+    margin-top: 10rem;
    
 }
 #nav-item-heading::after{
@@ -242,10 +250,23 @@ button:hover{
 }
 
 .text-content{
-    margin-left: 195px;
-    margin-top: 50px;
-    font-size: 30px;
+    margin-left: 19.5rem;
+    margin-top: 5rem;
+    font-size: 3rem;
 }
+
+.text-content a{
+    text-decoration: none;
+    font-size: 3rem;
+    color: #3d535f;
+}
+
+.text-content a:hover{
+    color: #7f00ff;
+    transform: scale(2.1);
+    transition: 0.1s;
+}
+
 /* .text-content::after{
     position: absolute;
     content: '';
@@ -256,7 +277,7 @@ button:hover{
 } */
 
 .bullet{
-  font-size: 50px;
+  font-size: 5rem;
   color: #7f00ff;
 }
 
@@ -264,4 +285,10 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.project_links{
+    display: block;
+    width: 90%;
+    font-size: 2.2rem;
+    color: #3d535f;  
 }
